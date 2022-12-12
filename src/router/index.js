@@ -1,10 +1,22 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-
+import VueRouter  from 'vue-router'
+import HomeView  from '../views/HomeView.vue'
+import Actualizar from "../views/actualizar.vue"
+import axios from "../views/axios.vue"
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/actualizar',
+    name: 'actualizar',
+    component : Actualizar 
+  },
+  {
+    path: '/axios',
+    name: 'axios',
+    component : axios 
+  },
+  
   {
     path: '/',
     name: 'home',
