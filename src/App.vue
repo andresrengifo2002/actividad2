@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="axios">
 
-    <router-view/>
+
   </div>
 </template>
 
